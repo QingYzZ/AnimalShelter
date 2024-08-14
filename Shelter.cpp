@@ -1,4 +1,8 @@
+#include <iostream>
+#include <string>
+
 #include "Shelter.hpp"
+
 
 Shelter::Shelter(string *name, int capacity) {
 	shelterName = new (nothrow) string;
