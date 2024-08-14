@@ -4,13 +4,13 @@ class Dog : public Animal{
 	public:
 	string *bread;
 	string *color;
-	int bark() {
-		cout << "Bark, bark, it's doggy..." << endl;
+	int woof() {
+		cout << "Woof, woof, it's doggy..." << endl;
 		return SUCCESS;
 	}
 
 	int makeNoise() {
-		cout << "Bark, bark, it's doggy..." << endl; 
+		cout << "Woof, woof, it's doggy..." << endl; 
 		return SUCCESS;
 	}
 };
